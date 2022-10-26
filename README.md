@@ -1,3 +1,5 @@
+backing up a fork of https://github.com/swift502/Sketchbook with upgrades to cannon and different build system. this is basically an archive because this wont be merged into the main repo and i needed to fork another person's fork to help them out and github wont allow two forks of the same repo.
+
 <p align="center">
 	<a href="https://jblaha.art/sketchbook/latest"><img src="./src/img/thumbnail.png"></a>
 	<br>
