@@ -1,0 +1,45 @@
+{
+  "name": "sketchbook",
+  "version": "0.4.0",
+  "description": "3D playground built on three.js and cannon.js",
+  "keywords": [
+    "3d",
+    "threejs",
+    "cannonjs",
+    "game",
+    "engine",
+    "typescript",
+    "sketchbook"
+  ],
+  "main": "build/sketchbook.min.js",
+  "types": "build/types/sketchbook.d.ts",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/swift502/Sketchbook.git"
+  },
+  "author": "swift502 <blaha.j502@gmail.com> (http://jblaha.art/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swift502/Sketchbook/issues"
+  },
+  "homepage": "https://github.com/swift502/Sketchbook",
+  "dependencies": {
+    "jquery": "3.6.0",
+    "lodash": "4.17.21",
+    "sweetalert2": "9.17.2",
+    "three": "0.113.0",
+    "three-csm": "1.0.2",
+    "cannon-es":"0.18.0"
+  },
+  "devDependencies": {
+    "sucrase":"3.20.1",
+    "budo":"jeremy-coleman/budo",
+    "@types/jquery": "3.5.6",
+    "@types/lodash": "4.14.172",
+    "typescript": "4.4.2"
+  }
+}
